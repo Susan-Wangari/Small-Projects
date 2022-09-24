@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1 id="title">Lux Tech Academy</h1>
+    <p id="description">Thank you for taking your time to help us improve your learning experience</p>
+    <form id="survey-form">
+      <label for="name"id="name-label"><input type="text" id="name" placeholder="Enter your name" required>Name</label>
+      <label for="email" id="email-label"><input type="email" id="email" placeholder="Enter your email" required>Email</label>
+     <label for="number" id="number-label"> <input type="number" id="number" min="10" max="100" placeholder="Age">Age</label>
+     <p>Which option describes your current role?</p>
+      <select id="dropdown">
+        <option>FrontEnd developer</option>
+        <option>Backend Developer</option>
+        <option>FullStack developer</option>
+        <option>Data Scientist</option>
+        <option>Android Developer</option>
+        <option>Other</option>
+      </select>
+      <p>Would you recommend Lux Tech Academy to a friend?</p>
+      <input type="radio" name="recommendation" value="definitely">Definitely
+      <input type="radio" name="recommendation" value="maybe">Maybe
+      <input type="radio" name="recommendation" value="notsure">Not sure
+      <p>What is your favourite part of Lux Tech Academy?</p>
+      <input type="checkbox" value="bootcamps">Bootcamps
+      <input type="checkbox" value="twitterspaces">TwitterSpaces
+      <input type="checkbox" value="meetups">Meetups
+      <input type="checkbox" value="meetandchill">Meet and Chill
+      <textarea placeholder="what would you like us to improve?"></textarea>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
