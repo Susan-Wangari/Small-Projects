@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+   background-image: url('https://unsplash.com/photos/QQ9LainS6tI');
+   
+    
+}
+form {
+    padding: 5px;
+    border: 1px solid black;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+ input {
+    display: block;
+    margin:0 auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    border: 0.5px solid black;
+    box-shadow: none;
+    outline: none;
+    background-color: lightgrey;
+ }
+  
+ input[type="radio"] {
+    display: block;
+ }
+
+ select {
+    width: 50%;
+ }
+ textarea {
+    width: 50%;
+ }
+
+ button {
+    width: 50%;
+ }
